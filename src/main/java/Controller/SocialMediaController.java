@@ -53,6 +53,7 @@ public class SocialMediaController {
     private void getAllMessagesHandler(Context context) {
         List<Message> messages = messageService.getAllMessages();
         context.json(messages);
+        
     }
 
     /* Handler to post a new message.
